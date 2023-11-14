@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Define la función f(x, y)
 def f(x, y):
-    return (3*x^^2*y
+    return 3*x*np.exp(2)*y
 
 # Define el método de Euler
 def euler(x0, y0, h, N):
